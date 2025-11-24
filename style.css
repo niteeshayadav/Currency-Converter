@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right,#471069,#30c5d2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #fffffffb;
+    width: 60%;
+    max-width: 500px;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+h1{
+    text-align: center;
+    text-wrap: nowrap;
+}
+.amount-class{
+    margin-top: 0.5rem;
+}
+p{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+#amount-box{
+   margin: 0.5rem 0 1rem 0;
+   border-radius: 0.5rem;
+   border: 1px solid lightgray;
+   padding: 1rem;
+   box-sizing: border-box;
+   width: 100%;
+   height: 3rem;
+}
+.from-to-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+i{
+    font-size: 1.5rem;
+}
+.select-container{
+    display: flex;
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.dropdown{
+    border: none;
+    outline: none;
+    width: 5rem;
+    margin-left: 0.3rem;
+}
+
+.select-container img{
+    max-width: 2rem;
+}
+.msg{
+    margin: 1rem 0 1rem 0;
+}
+.submit-btn{
+    min-height: 6vh;
+    min-width: 10vw;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #4ed4df;
+    box-shadow: grey;
+}
+.submit-btn:hover{
+    transform: scale(1.03);
+    transition: 0.2s ease;
+}
+
+@media (max-width : 768px){
+ .container {
+    background-color: #fffffffb;
+    width: 90%;             
+    max-width: 500px; 
+    height: auto;      
+    margin: auto;           
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    box-sizing: border-box; 
+}
+}
+@media (max-width : 320px){  
+.from-to-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0 1rem 0;
+} 
+i{
+    font-size: 1rem;
+}
+.select-container{
+    display: flex;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.dropdown{
+    border: none;
+    outline: none;
+    width: 4rem;
+    margin-left: 0.1rem;
+}
+.select-container img{
+    width: 1.3rem;
+    max-width: 2rem;
+}
+}
