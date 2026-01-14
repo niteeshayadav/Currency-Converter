@@ -4,9 +4,6 @@ A simple and responsive web application that allows users to convert currencies 
 
 🔗 **Live:** [https://niteeshayadav.github.io/Currency-Converter/](https://niteeshayadav.github.io/Currency-Converter/)
 
-## 📸 Demo Video 
-
-*(Optional: You can add a screenshot of your app here)*
 ## ✨ Features
 
 - **Real-time Conversion:** Fetches the latest exchange rates using a currency API.
@@ -33,4 +30,21 @@ Currency-Converter/
 ├── codes.js        # Country and Currency codes mapping
 └── README.md       # Project documentation
 ```
+## 🚀 How to Run Locally
 
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/niteeshayadav/Currency-Converter.git](https://github.com/niteeshayadav/Currency-Converter.git)
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd Currency-Converter
+   ```
+3. **Open index.html:**
+   You can open the file directly in your web browser, or use a live server extension (like Live Server in VS Code) for a    better development experience.
+---
+##Screenshots:
+
+![1000111983](https://github.com/user-attachments/assets/d4f31f9c-b339-4c0a-abbc-89b51b08ca46)
+![1000111982](https://github.com/user-attachments/assets/e698d64c-b887-4d4a-9af5-b172eda49c2c)
+![1000111981](https://github.com/user-attachments/assets/1573d85e-34b8-49e8-af9b-d00da1e83e63)
