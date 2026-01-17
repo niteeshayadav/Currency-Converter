@@ -16,7 +16,7 @@ A simple and responsive web application that allows users to convert currencies 
 - **HTML5** - For the structure of the application.
 - **CSS3** - For styling and responsiveness.
 - **JavaScript (ES6)** - For fetching API data and handling logic.
-- **Exchange Rate API** - (e.g., ExchangeRate-API or similar) for fetching live rates.
+- **Exchange Rate API** - (e.g., ExchangeRate-API) for fetching live rates.
 - **Flags API** - For displaying country flags.
 
 ## 📂 Project Structure
